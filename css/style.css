@@ -29,8 +29,8 @@ body{
     padding: 15px;
 }
 
-#area-lateral, #area-postagens{
-    background: white;
+#area-lateral{
+   
 }
 
 #area-postagens{
@@ -50,6 +50,10 @@ body{
     background: white;
 }
 
+.conteudo-lateral{
+    background: white;
+}
+
 #rodape{
     clear: both;
     text-align: center;
@@ -61,6 +65,16 @@ body{
 
 a{
     text-decoration: none;
+}
+
+ a:link, :visited {
+    color: #f7b600;
+    
+}
+
+ a:hover{
+   text-decoration: underline;
+    
 }
 
 #area-cabecalho a:link, #area-cabecalho :visited {
